@@ -1,0 +1,5 @@
+    sub_57ABC0(i, i, (unsigned int)&v85, (int)"Gunz64.exe");
+    sub_57ABC0(i, i, (unsigned int)&v86, (int)"system.fgz3");
+    sub_57ABC0(i, i, (unsigned int)&v87, (int)"update.fgz3");
+
+	void ZGameClient::GetEncryptMD5HashValue(char* szEncryptMD5Value, char* szModule)

@@ -1,0 +1,27 @@
+Damage hunt:
+	void ZGameAction::OnPeerSkill_Dash(ZCharacter *pOwnerCharacter)
+
+	ZItem *pItem = pOwnerCharacter->GetItems()->GetItem(MMCIP_MELEE);
+	if(!pItem) return;
+	MMatchItemDesc *pDesc = pItem->GetDesc();
+	if(!pDesc) { return; }
+
+	float fDamage = pDesc->m_nDamage.Ref() * 1.5f;// 기본 무기데미지 * 150 %
+	float fRatio = pItem->GetPiercingRatio( pDesc->m_nWeaponType.Ref() , eq_parts_chest );
+
+
+
+	sub_459900 GetItem ?
+
+
+	sub_5DCAE0  TextRelative probably
+
+
+	TODO: Get username: 00535AFD
+
+
+
+
+
+
+	DAMGAGE HAJC ?>! acter*)pickinfo.pObject)->OnDamaged_AntiLead(pOwner, vInfo);
